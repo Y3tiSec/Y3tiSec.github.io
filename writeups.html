@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writeups - Y3ti@Sec</title>
+    <link rel="stylesheet" href="assets/css/writeups.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+            <!-- Navigation -->
+            <nav class="navbar">
+              <div class="nav-container">
+                  <div class="nav-brand">
+                      <img src="assets/images/logo.png" alt="Y3ti@Sec Logo" class="nav-logo">
+                      <span class="nav-title">Y3ti@Sec</span>
+                  </div>
+                  
+                  <!-- Desktop Navigation -->
+                  <ul class="nav-menu">
+                      <li class="nav-item">
+                          <a href="/" class="nav-link">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="about.html" class="nav-link">About</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="team.html" class="nav-link">Team</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="portfolio.html" class="nav-link">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="writeups.html" class="nav-link active">Writeups</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="events.html" class="nav-link">Events</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="join.html" class="nav-link">Join Us</a>
+                      </li>
+                  </ul>
+                  
+                  <!-- Mobile Hamburger -->
+                  <div class="hamburger">
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                  </div>
+              </div>
+          </nav>
+        
+
+    <!-- Writeups Header -->
+    <section class="writeups-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>&lt;CTF_Writeups /&gt;</h1>
+                <p>Detailed solutions and learning resources from our CTF journey</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writeups Overview -->
+    <section class="writeups-overview">
+        <div class="container">
+            <h2 class="section-title">Knowledge Sharing</h2>
+            <div class="overview-content">
+                <div class="overview-text">
+                <p>At Y3ti@Sec, we believe in sharing knowledge to help everyone grow in the world of cybersecurity. Our writeups cover many different CTF challenges, such as web security, password validation, webhook protection, Laravel authentication and more.</p>
+
+<p>Each writeup includes clear explanations, step-by-step solutions, and example code to make it easy to follow. Whether you’re just starting out or already experienced, our guides offer helpful tips and insights to improve your skills and understand how these challenges work.</p>
+
+<p>By learning together, we aim to build a stronger, smarter cybersecurity community in Nepal and beyond.</p>
+    
+                </div>
+                <div class="overview-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Writeups Published</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5</span>
+                        <span class="stat-label">Categories Covered</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Community Views</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All Categories</button>
+                <button class="filter-btn" data-filter="web">Web Security</button>
+                <button class="filter-btn" data-filter="crypto">Cryptography</button>
+                <button class="filter-btn" data-filter="forensics">Forensics</button>
+                <button class="filter-btn" data-filter="misc">Miscellaneous</button>
+                <button class="filter-btn" data-filter="pwn">Binary Exploitation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writeups Grid -->
+    <section class="writeups-grid-section">
+        <div class="container">
+            <div class="writeups-grid">
+                <!-- Web Security Writeups -->
+                <article class="writeup-card" data-category="web">
+                    <div class="writeup-header">
+                        <div class="category-badge web">Web Security</div>
+                        <div class="difficulty-badge medium">Medium</div>
+                    </div>
+                    <div class="writeup-content">
+                        <h3>Laravel Authentication Bypass</h3>
+                        <p class="writeup-description">Comprehensive guide on exploiting Laravel authentication vulnerabilities and implementing secure password validation systems[2][3].</p>
+                        <div class="writeup-meta">
+                            <span class="author">By: NXP@Aawart</span>
+                            <span class="date">June 26, 2025</span>
+                        </div>
+                        <div class="writeup-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Authentication</span>
+                            <span class="tag">Password Security</span>
+                        </div>
+                    </div>
+                    <div class="writeup-footer">
+                        <a href="#" class="read-more-btn">Read Writeup</a>
+                        <div class="writeup-stats">
+                            <span>👁️ 245</span>
+                            <span>❤️ 18</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="writeup-card" data-category="web">
+                    <div class="writeup-header">
+                        <div class="category-badge web">Web Security</div>
+                        <div class="difficulty-badge hard">Hard</div>
+                    </div>
+                    <div class="writeup-content">
+                        <h3>XSS Exploitation Techniques</h3>
+                        <p class="writeup-description">Advanced XSS vulnerability analysis and exploitation methods using modern web security techniques[4].</p>
+                        <div class="writeup-meta">
+                            <span class="author">By: Itsjustme27</span>
+                            <span class="date">June 21, 2025</span>
+                        </div>
+                        <div class="writeup-tags">
+                            <span class="tag">XSS</span>
+                            <span class="tag">Web Security</span>
+                            <span class="tag">pwntools</span>
+                        </div>
+                    </div>
+                    <div class="writeup-footer">
+                        <a href="#" class="read-more-btn">Read Writeup</a>
+                        <div class="writeup-stats">
+                            <span>👁️ 312</span>
+                            <span>❤️ 24</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="writeup-card" data-category="misc">
+                    <div class="writeup-header">
+                        <div class="category-badge misc">Miscellaneous</div>
+                        <div class="difficulty-badge medium">Medium</div>
+                    </div>
+                    <div class="writeup-content">
+                        <h3>Webhook Security Analysis</h3>
+                        <p class="writeup-description">Deep dive into webhook integration security using webhook.site for CTF challenges and troubleshooting techniques[1].</p>
+                        <div class="writeup-meta">
+                            <span class="author">By: ZeroTr4ce</span>
+                            <span class="date">June 29, 2025</span>
+                        </div>
+                        <div class="writeup-tags">
+                            <span class="tag">Webhooks</span>
+                            <span class="tag">Integration</span>
+                            <span class="tag">API Security</span>
+                        </div>
+                    </div>
+                    <div class="writeup-footer">
+                        <a href="#" class="read-more-btn">Read Writeup</a>
+                        <div class="writeup-stats">
+                            <span>👁️ 189</span>
+                            <span>❤️ 15</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="writeup-card" data-category="web">
+                    <div class="writeup-header">
+                        <div class="category-badge web">Web Security</div>
+                        <div class="difficulty-badge easy">Easy</div>
+                    </div>
+                    <div class="writeup-content">
+                        <h3>TryHackMe: LazyAdmin</h3>
+                        <p class="writeup-description">Step-by-step walkthrough of the LazyAdmin room focusing on web enumeration and privilege escalation techniques.</p>
+                        <div class="writeup-meta">
+                            <span class="author">By: Llyr</span>
+                            <span class="date">July 5, 2025</span>
+                        </div>
+                        <div class="writeup-tags">
+                            <span class="tag">TryHackMe</span>
+                            <span class="tag">Enumeration</span>
+                            <span class="tag">PrivEsc</span>
+                        </div>
+                    </div>
+                    <div class="writeup-footer">
+                        <a href="#" class="read-more-btn">Read Writeup</a>
+                        <div class="writeup-stats">
+                            <span>👁️ 156</span>
+                            <span>❤️ 12</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="writeup-card" data-category="pwn">
+                    <div class="writeup-header">
+                        <div class="category-badge pwn">Binary Exploitation</div>
+                        <div class="difficulty-badge hard">Hard</div>
+                    </div>
+                    <div class="writeup-content">
+                        <h3>HackTheBox: Bashed</h3>
+                        <p class="writeup-description">Comprehensive analysis of the Bashed machine including initial foothold, enumeration, and root exploitation.</p>
+                        <div class="writeup-meta">
+                            <span class="author">By: NXP@Aawart</span>
+                            <span class="date">July 3, 2025</span>
+                        </div>
+                        <div class="writeup-tags">
+                            <span class="tag">HackTheBox</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">Shell</span>
+                        </div>
+                    </div>
+                    <div class="writeup-footer">
+                        <a href="#" class="read-more-btn">Read Writeup</a>
+                        <div class="writeup-stats">
+                            <span>👁️ 278</span>
+                            <span>❤️ 21</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="writeup-card" data-category="misc">
+                    <div class="writeup-header">
+                        <div class="category-badge misc">Miscellaneous</div>
+                        <div class="difficulty-badge medium">Medium</div>
+                    </div>
+                    <div class="writeup-content">
+                        <h3>Admin Role Security Analysis</h3>
+                        <p class="writeup-description">Security administration best practices focusing on user management and phishing prevention techniques[5].</p>
+                        <div class="writeup-meta">
+                            <span class="author">By: ZeroTr4ce</span>
+                            <span class="date">June 19, 2025</span>
+                        </div>
+                        <div class="writeup-tags">
+                            <span class="tag">Admin Security</span>
+                            <span class="tag">User Management</span>
+                            <span class="tag">Phishing</span>
+                        </div>
+                    </div>
+                    <div class="writeup-footer">
+                        <a href="#" class="read-more-btn">Read Writeup</a>
+                        <div class="writeup-stats">
+                            <span>👁️ 134</span>
+                            <span>❤️ 9</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="writeups-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Want to Contribute?</h2>
+                <p>We're always looking for quality writeups from the cybersecurity community. Share your knowledge and help others learn!</p>
+                <div class="cta-buttons">
+                    <a href="mailto:y3tisec@gmail.com" class="cta-btn primary">Submit Writeup</a>
+                    <a href="team.html" class="cta-btn secondary">Join Our Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Made with 🤍 by Y3ti@Sec</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/writeups.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
